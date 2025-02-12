@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+body {
+    --dot-bg: black;
+    --dot-color: rgb(184, 238, 127);
+    --dot-size: 1px;
+    --dot-space: 22px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+}
+
+p{
+    color: white;
+}
+
+h1,h2{
+    color: whitesmoke;
+}
+
+input{
+    background-color: gray;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+textarea{
+    background-color: gainsboro;
+    border-radius: 7px;
+}
+
+select{
+    background-color: ghostwhite;
+}
+
+legend{
+    color: azure;
+}
+
+option{
+    background-color: gray;
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+#cardinfo{
+    margin-bottom: 15px;
+}
+
+#submit,#reset{
+    background-color: greenyellow;
+    height: 45px;
+    width: 85px;
+    color: black;
+}
+
+#reset{
+    background-color: beige;
+    color: black;
+}
+
+#parent{
+    display: flex;
+    flex-direction:row;
+}
+
+#pay{
+    margin-left: 87%;
+}

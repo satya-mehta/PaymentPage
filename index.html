@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+
+        <fieldset>
+            <legend>Personal</legend>
+        <p>Name: <input type="text" required></p>
+        <p>Your Email Id: <input type="email" name="mail" id="email" required></p>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" required>
+            Female <input type="radio" name="gender" required>
+        </p>
+        </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+    <p>
+        Address: <textarea name="Address" placeholder="Enter your Address here" rows="5" cols="40"></textarea>
+    </p>
+    <p>Pin Code: <input type="number" name="pincode" required></p>
+    </fieldset>
+
+    <!-- <hr> -->
+    <h2>Payment Information</h2>
+    <fieldset id="cardinfo">
+        <legend>Card Details</legend>
+    <p>Card Type: <select name="cardtype" id="cardtype">
+        <option value=""><i>--select a card type--</i></option>
+        <option value="Rupay">Rupay</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Others">Others</option>
+    </select>
+
+    <p>Card Number: <input type="number" name="cardnumber" id="cardnumber" required></p>
+    <p>Validity: <input type="date" name="expdate" id="expdate" required></p>
+    <p>Cvv: <input type="password" name="" id="" required></p>
+    </p></fieldset>
+
+    <div id="parent">
+    <input type="Reset" name="" id="reset">
+    <div id="pay">
+    <input type="submit" value="Pay Now" id="submit">
+    </div>
+    </div>
+
+    </form>
+</body>
+</html>
