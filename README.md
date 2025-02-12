@@ -1,1 +1,1 @@
-Created by Satya nehta
+Created by Satya Mehta
