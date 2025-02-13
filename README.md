@@ -39,7 +39,7 @@ This is a simple and responsive **Payment Form** built using **HTML and CSS**. I
 3. Click **"Pay Now"** to submit or **"Reset"** to clear the form.
 
 ## Screenshots
-_(Add a screenshot here if possible)_
+![alt text](image.png)
 
 ## Improvements & Future Enhancements
 - Add **JavaScript validation** for better error handling.
