@@ -7,7 +7,7 @@ body{
 
 body {
     --dot-bg: black;
-    --dot-color: rgb(184, 238, 127);
+    --dot-color: white;
     --dot-size: 1px;
     --dot-space: 22px;
       background:
@@ -70,8 +70,12 @@ fieldset{
 #parent{
     display: flex;
     flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
 }
 
-#pay{
-    margin-left: 87%;
+#submit:hover, #reset:hover{
+    opacity:0.8;
+    cursor: pointer;
 }
+
