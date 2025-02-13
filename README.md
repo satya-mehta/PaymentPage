@@ -17,7 +17,7 @@ This is a simple and responsive **Payment Form** built using **HTML and CSS**. I
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/payment-form.git
+   git clone https://github.com/satya-mehta/PaymentPage.git
    ```
 2. Navigate to the project folder:
    ```sh
